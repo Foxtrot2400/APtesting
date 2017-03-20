@@ -1,0 +1,29 @@
+package me.foxtrot2400.timeplugin;
+import org.bukkit.entity.Player;
+import org.bukkit.plugin.java.JavaPlugin;
+//import org.bukkit.entity.Player;
+//import org.bukkit.Bukkit;
+//import org.bukkit.Location;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
+/**
+ * Created by j on 3/20/17.
+ */
+
+
+
+public class Main extends JavaPlugin {
+    //public static void main(String[] args);
+
+    @Override
+    public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+        Player player = (Player) sender;
+        if (cmd.getName().equalsIgnoreCase("aptime")) { // If the player typed /aptime then do the following...
+            long rawTime = player.getWorld().getFullTime();
+            sender.sendMessage("Current Airship Pirates Time:" + rawTime);
+//the previous lines will find the time in ap time, and send it to the player
+            return true;
+        }
+     return false;
+    }
+}
