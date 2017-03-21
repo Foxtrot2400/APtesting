@@ -1,9 +1,6 @@
 package me.foxtrot2400.timeplugin;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
-//import org.bukkit.entity.Player;
-//import org.bukkit.Bukkit;
-//import org.bukkit.Location;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 /**
@@ -45,47 +42,47 @@ public class Main extends JavaPlugin {
                 //If your reading this code, you also may have noticed there is nothing for Janurary. This is because these are the first days of the month
                 if(timemonth == 2)
                 {
-                     timeday = timeday - 59;
+                     timeday = timeday - 31;
                 }
                 if(timemonth == 3)
                 {
-                    timeday = timeday - 90;
+                    timeday = timeday - 59;
                 }
                 if(timemonth == 4)
                 {
-                    timeday = timeday - 120;
+                    timeday = timeday - 90;
                 }
                 if(timemonth == 5)
                 {
-                    timeday = timeday - 151;
+                    timeday = timeday - 120;
                 }
                 if(timemonth == 6)
                 {
-                    timeday = timeday - 181;
+                    timeday = timeday - 151;
                 }
                 if(timemonth == 7)
                 {
-                    timeday = timeday - 212;
+                    timeday = timeday - 181;
                 }
                 if(timemonth == 8)
                 {
-                    timeday = timeday - 243;
+                    timeday = timeday - 212;
                 }
                 if(timemonth == 9)
                 {
-                    timeday = timeday - 274;
+                    timeday = timeday - 243;
                 }
                 if(timemonth == 10)
                 {
-                    timeday = timeday - 304;
+                    timeday = timeday - 274;
                 }
                 if(timemonth == 11)
                 {
-                    timeday = timeday - 335;
+                    timeday = timeday - 304;
                 }
                 if(timemonth == 12)
                 {
-                    timeday = timeday - 365;
+                    timeday = timeday - 335;
                 }
 
 
