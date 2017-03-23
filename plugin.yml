@@ -1,5 +1,5 @@
 name: FoxServerTimekeeper
-main: me.Foxtrot2400.timeplugin.Main
+main: Main
 version: 1.0
 description: [Foxs Airship Pirates server timekeeping plugin]
 author: Foxtrot2400
