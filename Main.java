@@ -1,6 +1,10 @@
-package me.foxtrot2400.timeplugin;
+package me.foxtrot2400.timepluginnew;
+
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
+//import org.bukkit.entity.Player;
+//import org.bukkit.Bukkit;
+//import org.bukkit.Location;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 /**
@@ -42,7 +46,7 @@ public class Main extends JavaPlugin {
                 //If your reading this code, you also may have noticed there is nothing for Janurary. This is because these are the first days of the month
                 if(timemonth == 2)
                 {
-                     timeday = timeday - 31;
+                    timeday = timeday - 31;
                 }
                 if(timemonth == 3)
                 {
@@ -125,3 +129,5 @@ public class Main extends JavaPlugin {
         return hours + ":" + mm + " " + ampm;
     }
 }
+
+
