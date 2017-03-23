@@ -1,9 +1,0 @@
-name: FoxServerTimekeeper
-main: Main
-version: 1.0
-description: [Foxs Airship Pirates server timekeeping plugin]
-author: Foxtrot2400
-commands:
-   aptime:
-      description: Date and time of the server according to it's uptime in Minecraft days.
-      usage: /aptime
