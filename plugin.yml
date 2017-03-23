@@ -1,0 +1,12 @@
+name: FoxServerTimekeeper
+main: me.foxtrot.Main
+version: 1.0
+author: [Foxtrot2400]
+commands:
+   aptime:
+      description: Date and time of the server
+      usage: /aptime
+   
+   test:
+      description: Test plugin
+      usage: /test
